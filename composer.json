@@ -1,0 +1,29 @@
+{
+    "name": "morsapt/changelog",
+    "description": "Simple Changelog CRUD API to store and parse to HTML",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mario Rodrigues",
+            "email": "morsa.h@gmail.com"
+        }
+    ],
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "require": {
+        "league/commonmark": "2.0.x-dev",
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Morsapt\\Changelog\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "Morsapt\\Changelog\\ChangelogServiceProvider"
+            ]
+        }
+    }
+}
