@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.1] - 2021-05-11
+### Updated
+- `.gitignore` file - filename typo
+- composer.json - updated `league/commonmark` version to mach the current stable version of 1.6
+
 ## [1.0.0] - 2021-05-11
 ### Added
 - First code release
