@@ -23,7 +23,7 @@ class PerPageScope implements Scope
         // make a 500 limit
         if (Request::has('perPage') && Request::get('perPage') > 0) {
 
-            $perPage = (int)parseInRequest::get('perPage', 20);
+            $perPage = (int) Request::get('perPage', 20);
             if ($perPage > 500) {
                 $perPage = 500;
             } elseif ($perPage <= 0) {
