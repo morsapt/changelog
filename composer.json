@@ -1,6 +1,6 @@
 {
     "name": "morsapt/changelog",
-    "description": "Simple Changelog CRUD API to store and parse to HTML",
+    "description": "Simple Changelog CRUD API to store markdown and parse it to HTML output",
     "license": "MIT",
     "authors": [
         {
@@ -8,11 +8,12 @@
             "email": "morsa.h@gmail.com"
         }
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
-        "league/commonmark": "2.0.x-dev",
-        "php": ">=7.2"
+        "league/commonmark": "^1.6",
+        "php": "^7.2 || ^8.0"
     },
     "autoload": {
         "psr-4": {
