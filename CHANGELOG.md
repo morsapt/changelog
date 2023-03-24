@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.2] - 2023-03-24
+### Updated
+- composer.json - updated `league/commonmark` in composer.json to allow 2+ version.
+
+
 ## [1.0.1] - 2021-05-11
 ### Updated
 - `.gitignore` file - filename typo
